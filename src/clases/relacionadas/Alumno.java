@@ -15,12 +15,7 @@ public abstract class Alumno implements Inscribible {
 	private int nroCurso;
 	private int notaFinalCursada;
 	
-	/**
-	 * 
-	 * @param dni No puede ser menor a 5 millones
-	 * @param nombre no puede ser nulo ni vacío
-	 * @param nroCurso debe estar entre 1 y 10.
-	 */
+	
 	public Alumno(int dni, String nombre, int nroCurso, int notaFinalCursada) {
 		this.setDni(dni);
 		this.setNombre(nombre);
